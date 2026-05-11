@@ -47,7 +47,7 @@ int main() {
         }
     }
     if (count == 0) {
-        printf("NOT ISOLATED\n");
+        printf("ISOLATED NONE\n");
     }
 
     return 0;
