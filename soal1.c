@@ -40,15 +40,17 @@ int main() {
     printf("MAX_VERTEX %d\n", idx);
 
     int count = 0;
+    printf("ISOLATED");
     for (int i = 0; i < N; i++) {
         if (degree[i] == 0) {
-            printf("ISOLATED %d\n", i);
+            printf(" %d", i);
             count++;
         }
     }
     if (count == 0) {
-        printf("ISOLATED NONE\n");
+        printf(" NONE");
     }
+    printf("\n");
 
     return 0;
 }
